@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+</head>
+<body>
+    <h1>Quantos minutos cada torneira fica pingando?</h1>
+    torneira 1<input id="ipt_torneira1" type="text"> <br>
+    torneira 2<input id="ipt_torneira2" type="text"> <br>
+    torneira 3<input id="ipt_torneira3" type="text"> <br> 
+    <button onclick="torneirar()">Toneira</button>
+
+</body>
+</html>
+
+<script>
+    function torneirar() {
+        alert ("Suas 3 torneiras, juntas, desperdiçaram" + (Number(ipt_torneira1.value * 15) + (Number)(ipt_torneira2.value * 15) + (Number)(ipt_torneira3.value * 15)) + "litros de água")
+    }
+</script>

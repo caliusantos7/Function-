@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    
+    Qual o valor da passagem? <input id="ipt_passagem" type="text"> <br>
+    Quantas passagens você fará por mês? <input id="ipt_mes" type="text"> <br>
+    <button onclick="Economizar()">Ver economia</button>
+
+</body>
+</html>
+
+<script>
+    function Economizar() {
+        alert("O valor da pasasgem é: " + ((ipt_passagem.value * ipt_mes.value)/2))
+    }
+</script>

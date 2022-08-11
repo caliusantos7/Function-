@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    Solicite o nome do guerreiro <input id="ipt_nome" type="text" >
+    Solicite o ki do guerreiro <input id="ipt_ki" type="text" >
+    <button onclick="Energizar()">Ver ki em cada forma</button>
+
+</body>
+</html>
+
+<script>
+    function Energizar() {
+        alert((ipt_nome.value + " Seu ki em supersayajin 1  é: ") + ipt_ki.value * 50 )
+        alert((ipt_nome.value + " Seu ki em supersayajin 2 é: ") + ipt_ki.value * 100 )
+    }
+</script>
